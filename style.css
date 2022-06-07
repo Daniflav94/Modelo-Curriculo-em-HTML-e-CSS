@@ -1,0 +1,171 @@
+.container{  display: grid;
+  grid-template-columns: 0.9fr 1.1fr 1fr;
+  grid-template-rows: 0.7fr 0.4fr 0.6fr 2.3fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "bloco meunome meunome"
+    "bloco objetivo objetivo"
+    "bloco sobremim sobremim"
+    "bloco experiencia formacao";
+}
+  
+body{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background-color: rgb(255, 254, 250)
+}
+
+.meunome{ 
+  grid-area: meunome; 
+  font-size: 40px;
+  color: rgb(14, 46, 88);
+  font-family: 'Julius Sans One', sans-serif;
+  margin: 70px 0 30px 0;
+}
+
+.objetivo{ 
+  grid-area: objetivo; 
+  font-size: 24px;
+  margin: 0 0 30px 0;
+}
+
+.bloco{ 
+  grid-area: bloco; 
+  background: linear-gradient(45deg, #504b65, #34285f, #1c0c54, #080121);
+  color: #ffffff;
+  width: 90%;
+}
+
+.minhafoto{
+  grid-area: bloco;
+  width: 40%;
+  margin: 40px 0 20px 0;
+  border: 2px solid #15074a;
+  border-radius: 50%;
+}
+
+h2{
+  margin: 1em 0 0 0;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+ul{
+  padding: 1em;
+}
+
+.logos{
+  margin-right: 0.5em;
+  width: 20px; 
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0 0 10px; 
+}
+
+.linkedin, .git{
+  width: 20px;
+  padding: 0 0.5em 0 0;
+  
+}
+
+.contato, .habilidades{
+  text-align: center;
+}
+
+.circulos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circulo{
+  width: 5px;
+  height: 5px;
+  margin: 2px;
+  shape-outside: circle();
+  clip-path: circle();
+  background: rgb(255, 255, 255);
+}
+
+.circulo2{
+  width: 7px;
+  height: 7px;
+  margin: 2px;
+  shape-outside: circle();
+  clip-path: circle();
+  background:#080121;
+}
+
+.habilidades{
+  padding: 1em;
+}
+
+li{
+  padding: 1em;
+}
+
+
+p{
+  padding: 0.5em 0 0 0;
+}
+
+.sobremim{ 
+  grid-area: sobremim; 
+  text-align: center;
+  margin: 0 50px 50px 50px;
+}
+
+.titulo2{
+  grid-area: sobremim;
+  font-size: 25px;
+  font-family: 'Julius Sans One', sans-serif;
+  margin: 0 0 15px 0;
+}
+
+.experiencia{ 
+  grid-area: experiencia; 
+  width: 80%;
+  margin: 0 0 0 70px; 
+}
+
+.titulo3{
+  grid-area: experiencia;
+  font-size: 25px;
+  margin: 0 0 15px 0;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+h4{
+  font-weight: bold;
+  padding: 0 0 0.5em 0;
+}
+
+.experiencias{
+  text-align: justify;
+  padding: 20px 20px;
+}
+
+.formacao{ 
+  grid-area: formacao; 
+  width: 80%;
+}
+
+.formacao2{
+  text-align: justify;
+}
+
+
+
+
+
+
+
+  
+ 
+
